@@ -2,7 +2,7 @@ function J = costFunction (X,y, theta)
 
 m = rows(X);    #determine the number of rows or amount of training data
 
-predicted = X * theta;
+predicted = X * theta;        #prediction of hypothesis on all m examples
 
 Sqrderrors = (y - predicted) . ^2;    #determine the squared difference in each set of data from predicted and actual
 
